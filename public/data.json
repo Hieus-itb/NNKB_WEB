@@ -1,0 +1,41 @@
+{
+    "homePage": {
+        "banner": {
+            "image": "/images/banner/banner-img-1.jpg",
+            "title": "A world-class education is applicable for building the future",
+            "subTitle": "Welcome to Unco",
+            "button": {
+                "title": "Check event",
+                "link": "/event"
+            },
+            "socials": [
+                {
+                    "title": "Facebook",
+                    "link": "https://www.facebook.com/"
+                },
+                {
+                    "title": "Instagram",
+                    "link": "https://www.facebook.com/"
+                },
+                {
+                    "title": "Twitter",
+                    "link": "https://www.facebook.com/"
+                },
+                {
+                    "title": "Linkedin",
+                    "link": "https://www.facebook.com/"
+                }
+            ],
+            "moreLink": [
+                {
+                    "title": "Explore our courses",
+                    "link": "/event"
+                },
+                {
+                    "title": "Study onlinen",
+                    "link": "/event"
+                }
+            ]
+        }
+    }
+}
