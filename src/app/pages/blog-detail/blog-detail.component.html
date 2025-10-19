@@ -1,0 +1,330 @@
+<!-- Start Page Title Area -->
+<div class="page-title-area bg-23">
+	<div class="container">
+		<div class="page-title-content">
+			<h2>Blog details</h2>
+
+			<ul>
+				<li>
+					<a href="index.html">
+						Home
+					</a>
+				</li>
+
+				<li class="active">Blog details</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- End Page Title Area -->
+
+<!-- Start Blog Details Area -->
+<section class="blog-details-area ptb-100">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="blog-details-content mr-15">
+					<div class="blog-details-img">
+						<img src="{{blog.image}}" alt="Image">
+					</div>
+
+					<div class="blog-top-content">
+						<div class="blog-content">
+							<ul class="admin">
+								<li>
+									<a [routerLink]="['/blog-detail', blog.slug]">
+										<i class="ri-user-3-fill"></i>
+										{{blog.en.author}}
+									</a>
+								</li>
+
+								<li>
+									<i class="ri-calendar-2-line"></i>
+									{{blog.longtime | date: 'dd/MM/yyyy'}}
+								</li>
+
+								<li>
+									<a [routerLink]="['/blog-detail', blog.slug]">
+										<i class="ri-discuss-line"></i>
+										(03)No comments
+									</a>
+								</li>
+							</ul>
+
+							<h3>{{blog.en.title}}</h3>
+							<div [innerHTML]="blog.en.content"></div>
+							<div class="gap-mb-20"></div>
+						</div>
+
+					</div>
+
+					<div class="tags">
+						<ul class="tag-link">
+							<li class="title">
+								<i class="ri-price-tag-line"></i>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']" target="_blank">
+									Academic,
+								</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']" target="_blank">
+									University,
+								</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']" target="_blank">
+									Scholarships,
+								</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']" target="_blank">
+									Student
+								</a>
+							</li>
+						</ul>
+
+						<div class="share-link">
+							<ul class="social-icon">
+								<li>
+									<span>Share</span>
+								</li>
+								<li>
+									<a href="https://www.facebook.com/" target="_blank">
+										<i class="ri-facebook-fill"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/" target="_blank">
+										<i class="ri-instagram-line"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/" target="_blank">
+										<i class="ri-linkedin-fill"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/" target="_blank">
+										<i class="ri-twitter-fill"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<ul class="comment">
+						<li>
+							<img src="/images/blog-details/comment-1.jpg" alt="Image">
+							<h3>Harold McLeod</h3>
+							<span>14, march 2021</span>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, quos! Pariatur ipsum
+								aperiam alias distinctio vel molestiae id. Aut atque sequi eius omnis et? Nesciunt
+								blanditiis incidunt.</p>
+
+							<a [routerLink]="['/blog-detail', blog.slug]" class="read-more">Reply</a>
+						</li>
+
+						<li class="margin-left">
+							<img src="/images/blog-details/comment-2.jpg" alt="Image">
+							<h3>Alex Dew</h3>
+							<span>14, march 2021</span>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, quos! Pariatur ipsum
+								aperiam alias distinctio vel molestiae id. Aut atque sequi eius omnis et? Nesciunt.</p>
+
+							<a [routerLink]="['/blog-detail', blog.slug]" class="read-more">Reply</a>
+						</li>
+
+						<li>
+							<img src="/images/blog-details/comment-3.jpg" alt="Image">
+							<h3>Juhon Smith</h3>
+							<span>14, march 2021</span>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, quos! Pariatur ipsum
+								aperiam alias distinctio vel molestiae id. Aut atque sequi eius omnis Nesciunt
+								blanditiis.</p>
+
+							<a [routerLink]="['/blog-detail', blog.slug]" class="read-more">Reply</a>
+						</li>
+					</ul>
+
+					<div class="leave-reply">
+						<h3>Leave a reply</h3>
+
+						<form>
+							<p>Your email address will not be published. Required fields are marked*</p>
+							<div class="row">
+								<div class="col-lg-6 col-sm-6">
+									<div class="form-group">
+										<label>Name*</label>
+										<input type="text" name="name" id="name" class="form-control">
+									</div>
+								</div>
+
+								<div class="col-lg-6 col-sm-6">
+									<div class="form-group">
+										<label>Email*</label>
+										<input type="email" name="email" id="email" class="form-control">
+									</div>
+								</div>
+
+								<div class="col-12">
+									<div class="form-group">
+										<label>Your Website Link</label>
+										<input type="text" name="website" id="website" class="form-control">
+									</div>
+								</div>
+
+								<div class="col-lg-12 col-md-12">
+									<div class="form-group">
+										<label>Comment</label>
+										<textarea name="message" class="form-control" id="message" rows="8"></textarea>
+									</div>
+								</div>
+
+								<div class="col-lg-12 col-md-12">
+									<button type="submit" class="default-btn">
+										Post a comment
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="widget-sidebar ml-15">
+					<div class="sidebar-widget search">
+						<form class="search-form">
+							<input class="form-control" name="search" placeholder="Search..." type="text">
+							<button class="search-button" type="submit">
+								<i class="ri-search-line"></i>
+							</button>
+						</form>
+					</div>
+
+					<div class="sidebar-widget categories">
+						<h3>Categories</h3>
+
+						<ul>
+							<li>
+								<a [routerLink]="['/blog']">
+									Academies
+									<i class="ri-arrow-right-s-line"></i>
+								</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">
+									Academies
+									<i class="ri-arrow-right-s-line"></i>
+								</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">
+									Alumni
+									<i class="ri-arrow-right-s-line"></i>
+								</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">
+									Application
+									<i class="ri-arrow-right-s-line"></i>
+								</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">
+									Engineering
+									<i class="ri-arrow-right-s-line"></i>
+								</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">
+									Design
+									<i class="ri-arrow-right-s-line"></i>
+								</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">
+									Business
+									<i class="ri-arrow-right-s-line"></i>
+								</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">
+									Science
+									<i class="ri-arrow-right-s-line"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="sidebar-widget recent-post">
+						<h3 class="widget-title">Latest news</h3>
+
+						<ul>
+							<li *ngFor="let new of latestNews">
+								<a [routerLink]="['/blog-detail', new.slug]">
+									{{new.en.title}}
+									<img src="{{new.image}}" alt="Image">
+								</a>
+								<span>{{new.longtime | date: 'dd/MM/yyyy'}}</span>
+							</li>
+						</ul>
+					</div>
+
+
+					<div class="sidebar-widget categories">
+						<h3>Archives</h3>
+						<ul>
+							<li *ngFor="let archive of archives">
+								<a [routerLink]="['/blog']"
+									[queryParams]="{ month: archive.monthIndex, year: archive.year }">
+									{{ archive.monthName }}
+									<span>{{ archive.year }}</span>
+								</a>
+							</li>
+
+							<li>
+								<a [routerLink]="['/blog']" [queryParams]="{}">
+									<span>All Posts</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="sidebar-widget tags mb-0">
+						<h3>Tags</h3>
+
+						<ul>
+							<li>
+								<a [routerLink]="['/blog']">Academies</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">Students</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">Alumni</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">Business</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">University</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">Engineering</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">Course</a>
+							</li>
+							<li>
+								<a [routerLink]="['/blog']">Scholarships</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Blog Details Area -->

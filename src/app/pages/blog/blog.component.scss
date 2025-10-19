@@ -1,14 +1,14 @@
 /* 
 Blog Post Style
 =====================================================*/
-/* .blog-post-area .pagination-area {
+.blog-post-area .pagination-area {
   text-align: left;
-} */
+}
 
 /* 
 Sidebar Widget Style
 =====================================================*/
-/* .sidebar-widget {
+.sidebar-widget {
   margin-bottom: 35px;
   padding: 30px;
   background-color: #f3f3f4;
@@ -101,6 +101,8 @@ Sidebar Widget Style
   position: absolute;
   top: 0;
   left: 0;
+  aspect-ratio: 1/1;
+  height: 80px;
 }
 .sidebar-widget.recent-post ul li span {
   display: block;
@@ -149,5 +151,4 @@ Sidebar Widget Style
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
-} */
-/*# sourceMappingURL=blog.css.map */
+}/*# sourceMappingURL=blog.css.map */

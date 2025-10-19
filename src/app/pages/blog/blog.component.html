@@ -1,0 +1,208 @@
+<!-- Start Page Title Area -->
+<div class="page-title-area bg-22">
+    <div class="container">
+        <div class="page-title-content">
+            <h2>Blog</h2>
+
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="active">Blog</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- End Page Title Area -->
+
+<!-- Start Blog Area -->
+<section class="blog-post-area ptb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row justify-content-md-center">
+                    <div class="col-lg-12 col-md-6"
+                        *ngFor="let blog of (selectedArchive ? selectedArchive.blogs : blogs)">
+                        <div class="single-blog">
+                            <a [routerLink]="['/blog-detail', blog.slug]" class="blog-img">
+                                <img src="{{blog.image}}" alt="Image">
+                            </a>
+                            <div class="blog-content">
+                                <ul>
+                                    <li>
+                                        <i class="ri-calendar-line"></i>
+                                        <span>{{blog.longtime | date: 'dd/MM/yyyy'}}</span>
+                                    </li>
+                                </ul>
+
+                                <h3>
+                                    <a [routerLink]="['/blog-detail', blog.slug]">
+                                        {{blog.en.title}}
+                                    </a>
+                                </h3>
+
+                                <p>{{blog.en.summary}}</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12">
+                        <div class="pagination-area">
+                            <a [routerLink]="['/blog']" class="prev page-numbers">
+                                <i class="ri-arrow-left-line"></i>
+                            </a>
+                            <!-- <span class="page-numbers current" aria-current="page">1</span>
+                            <a [routerLink]="['/blog' ]" class="page-numbers">2</a>
+                            <a [routerLink]="['/blog']" class="page-numbers">3</a> -->
+                            <a *ngFor="let p of pages" (click)="goToPage(p)" class="page-numbers"
+                                [class.current]="pageIndex === p">
+                                {{ p }}
+                            </a>
+                            <a [routerLink]="['/blog']" class="next page-numbers">
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="widget-sidebar ml-15">
+                    <div class="sidebar-widget search">
+                        <form class="search-form">
+                            <input class="form-control" name="search" placeholder="Search..." type="text">
+                            <button class="search-button" type="submit">
+                                <i class="ri-search-line"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="sidebar-widget categories">
+                        <h3>Categories</h3>
+
+                        <ul>
+                            <li>
+                                <a [routerLink]="['/blog']">
+                                    Academies
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">
+                                    Academies
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">
+                                    Alumni
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">
+                                    Application
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">
+                                    Engineering
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">
+                                    Design
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">
+                                    Business
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">
+                                    Science
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-widget recent-post">
+                        <h3 class="widget-title">Latest news</h3>
+
+                        <ul>
+                            <li *ngFor="let new of latestNews">
+                                <a [routerLink]="['/blog-detail', new.slug]">
+                                    {{new.en.title}}
+                                    <img src="{{new.image}}" alt="Image">
+                                </a>
+                                <span>{{new.longtime | date: 'dd/MM/yyyy'}}</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-widget categories">
+                        <h3>Archives</h3>
+                        <ul>
+                            <li *ngFor="let archive of archives">
+                                <a [routerLink]="['/blog']"
+                                    [queryParams]="{ month: archive.monthIndex, year: archive.year }">
+                                    {{ archive.monthName }}
+                                    <span>{{ archive.year }}</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a [routerLink]="['/blog']" [queryParams]="{}">
+                                    <span>All Posts</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="sidebar-widget tags mb-0">
+                        <h3>Tags</h3>
+
+                        <ul>
+                            <li>
+                                <a [routerLink]="['/blog']">Academies</a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">Students</a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">Alumni</a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">Business</a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">University</a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">Engineering</a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">Course</a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/blog']">Scholarships</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Blog Area -->

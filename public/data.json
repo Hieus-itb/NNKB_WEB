@@ -36,6 +36,249 @@
                     "link": "/event"
                 }
             ]
+        },
+        "about": {
+            "image": "/images/about-img.jpg",
+            "subTitle": "About our university",
+            "title": "Our education system inspires the next generation",
+            "description": "Curabitur aliquet quam id dui posuere blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.",
+            "button": {
+                "buttonTitle": "Find out more",
+                "buttonLink": "/event"
+            }
+        },
+        "course": {
+            "title": "Browse courses by study area",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna" 
+        },
+        "campus": {
+            "image": "/images/campus-img.jpg",
+            "subTitle": "Our campus information",
+            "title": "We are proud that more than 50 students from different nationalities study on our campus",
+            "description": "Curabitur aliquet quam id dui posuere blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus.",
+            "url": "campus-information"
+        },
+        "steps": {
+            "title": "Simple steps to start",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+            "stepList": [
+                {
+                    "icon": "flaticon-search",
+                    "title": "Querist",
+                    "description": "Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore."
+                },
+                {
+                    "icon": "flaticon-choosing",
+                    "title": "Choose",
+                    "description": "Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore."
+                },
+                {
+                    "icon": "flaticon-contract",
+                    "title": "Enroll",
+                    "description": "Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore."
+                },
+                {
+                    "icon": "flaticon-presentation",
+                    "title": "Start",
+                    "description": "Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore."
+                }
+            ]
+        },
+        "admission": {
+            "image": "/images/admission-img.jpg",
+            "subTitle": "Admission information",
+            "title": "All types of university admission information can be found here",
+            "description": "Curabitur aliquet quam id dui posuere blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.",
+            "button": {
+                "buttonTitle": "Overview",
+                "buttonLink": "/event"
+            }
+        },
+        "testimonias": [],
+        "news": {
+            "title": "Academic’s news",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt laboredolore magna suspendisse ultrices gravida."
+        },
+        "events": {
+            "title": "Upcoming events",
+            "subTitle": "Events",
+            "image" : "/images/event-img.jpg",
+            "titleCard" : "Next Event",
+            "button": {
+                    "buttonTitle": "Book now",
+                    "buttonLink" : "/event"
+            }
+        }
+    },
+    "eventList": [
+        {
+            "start": 1752552206000,
+            "end": 1752552206000,
+            "category": "Conference",
+            "location": "London",
+            "slotTotal": 100,
+            "slotBooked": 0,
+            "website": "www.unco.com",
+            "title": "Universities admission conference 2024",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "url": "event-1"
+        },
+        {
+            "start": 1752552206000,
+            "end": 1752552206000,
+            "category": "Conference",
+            "location": "Manchester",
+            "slotTotal": 200,
+            "slotBooked": 0,
+            "website": "www.unco.com",
+            "title": "History and culture open day conference 2024",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "url": "event-2"
+        },
+        {
+            "start": 1752552206000,
+            "end": 1752552206000,
+            "category": "Conference",
+            "location": "Manchester",
+            "slotTotal": 200,
+            "slotBooked": 0,
+            "website": "www.unco.com",
+            "title": "History and culture open day conference 2024",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "url": "event-2"
+        },
+        {
+            "start": 1752552206000,
+            "end": 1752552206000,
+            "category": "Conference",
+            "location": "Manchester",
+            "slotTotal": 200,
+            "slotBooked": 0,
+            "website": "www.unco.com",
+            "title": "History and culture open day conference 2024",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "url": "event-2"
+        },
+        {
+            "start": 1752552206000,
+            "end": 1752552206000,
+            "category": "Conference",
+            "location": "Manchester",
+            "slotTotal": 200,
+            "slotBooked": 0,
+            "website": "www.unco.com",
+            "title": "History and culture open day conference 2024",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "url": "event-2"
+        }
+    ],
+    "courseList": [
+        {
+            "isGraduated": true,
+            "language": [
+                "English",
+                "Vietnamese",
+                "Deuch"
+            ],
+            "icon": "flaticon-finance",
+            "image": "/images/about-img.jpg",
+            "title": "Business and finance",
+            "url": "course-1",
+            "description": "Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore."
+        },
+        {
+            "icon": "flaticon-data-scientist",
+            "title": "IT and data science",
+            "titleLink": "/event",
+            "description": "Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.",
+            "subTitle": "Find out more",
+            "subTitleLink": "/event"
+        },
+        {
+            "icon": "flaticon-compliant",
+            "title": "Law and criminology",
+            "titleLink": "/event",
+            "description": "Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.",
+            "subTitle": "Find out more",
+            "subTitleLink": "/event"
+        },
+        {
+            "icon": "flaticon-health",
+            "title": "Health and medicine",
+            "titleLink": "/event",
+            "description": "Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.",
+            "subTitle": "Find out more",
+            "subTitleLink": "/event"
+        },
+        {
+            "icon": "flaticon-data-scientist",
+            "title": "Business and finance",
+            "titleLink": "/event",
+            "description": "Lorem ipsum dolor sit consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.",
+            "subTitle": "Find out more",
+            "subTitleLink": "/event"
+        }
+    ],
+    "newList": [
+        {
+            "image": "/images/blog/blog-1.jpg",
+            "author": "Harold McLeod",
+            "date": 1752563173000,
+            "title": "How I applying to university",
+            "category": "Academics",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam animi dicta ex labore. Ipsum nobis amet nisi voluptate corporis consectetur adipisicing elit alias",
+            "content": "<h3>How I applying to university</h3> <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget.</p> <p>Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Praesent sapien massa, convallis a pellentesque</p>  <h3>Limiting students choice</h3> <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto  Sed ut perspiciatis unde omnis.</p> <p>Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem estibulum ante ipsum primis in faucibus orci.</p>",
+            "tags": [
+                "Student",
+                "University",
+                "Academic",
+                "Scholarships"
+            ]
+        },
+        {
+            "image": "/images/blog/blog-2.jpg",
+            "author": "Harold McLeod",
+            "date": 1752552206,
+            "title": "What and where choosing to study",
+            "category": "Academics",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam animi dicta ex labore. Ipsum nobis amet nisi voluptate corporis consectetur adipisicing elit alias",
+            "content": "<h3>How I applying to university</h3> <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget.</p> <p>Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Praesent sapien massa, convallis a pellentesque</p>  <h3>Limiting students choice</h3> <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto  Sed ut perspiciatis unde omnis.</p> <p>Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem estibulum ante ipsum primis in faucibus orci.</p>",
+            "tags": [
+                "Student",
+                "University",
+                "Academic",
+                "Scholarships"
+            ]
+        },
+        {
+            "image": "/images/blog/blog-3.jpg",
+            "author": "Harold McLeod",
+            "date": 1752552206,
+            "title": "A day in the life of a student",
+            "category": "Academics",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam animi dicta ex labore. Ipsum nobis amet nisi voluptate corporis consectetur adipisicing elit alias",
+            "content": "<h3>How I applying to university</h3> <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget.</p> <p>Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Praesent sapien massa, convallis a pellentesque</p>  <h3>Limiting students choice</h3> <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto  Sed ut perspiciatis unde omnis.</p> <p>Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem estibulum ante ipsum primis in faucibus orci.</p>",
+            "tags": [
+                "Student",
+                "University",
+                "Academic",
+                "Scholarships"
+            ]
+        }
+    ],
+    "eventPage": {
+        "banner": {
+            "title": "Events",
+            "bannerLink": [
+                {
+                    "title": "Home",
+                    "link": "/"
+                },
+                {
+                    "title": "Events",
+                    "link": "/event"
+                }
+            ]
         }
     }
 }

@@ -9,7 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
-  imports: [RouterOutlet,HeaderComponent, FooterComponent],
+  imports: [RouterOutlet,HeaderComponent, FooterComponent, ],
 })
 export class AppComponent {
   title = 'truongangular19';

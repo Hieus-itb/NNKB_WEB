@@ -977,12 +977,12 @@ Events Area Style
   color: var(--heading-color);
   font-weight: 600;
 }
-.events-timer #timer div:last-child::before {
+/* .events-timer #timer div:last-child::before {
   display: none;
 }
 .events-timer #timer div:last-child::after {
   display: none;
-}
+} */
 
 /*
 Admission Area Style
